@@ -317,6 +317,7 @@ function App() {
               <tr><button className="ed" style={{ background: '#f00' }} 
               onClick={()=>{
               setproc('post')
+              setdisab(false)
               setdata({...initstate});
               setincformat(p => {
                 return ({ incemail: false, incphon: false, incount: false })
